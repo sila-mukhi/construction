@@ -1,0 +1,33 @@
+.edit3{
+    width: 70%;
+    margin-left: max(5vw,25px);
+    margin-top: 50px;
+    color:#6d6d6d;
+    font-size: 16px;
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+}
+.edit3 form{
+    gap:20px;
+}
+.edit1-img-upload img{
+    width:120px;
+}
+.edit3-product-name , .edit3-product-description{
+width:max(40%,280px);    
+}
+.edit3-product-name input , .edit3-product-description textarea{
+    padding: 10px;
+}
+.update-btn3{
+    max-width: 120px;
+    border: none;
+    padding: 10px;
+    background-color: black;
+    color:white;
+    cursor: pointer;
+}

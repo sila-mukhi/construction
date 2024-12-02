@@ -1,0 +1,20 @@
+/* Add this CSS to your Complete.css */
+.complete-image-wrapper {
+    position: relative;
+    overflow: hidden; /* Ensures the zoom doesn't overflow the container */
+  }
+  
+  .complete-image-wrapper img {
+    transition: transform 0.3s ease; /* Smooth transition for zoom effect */
+  }
+  
+  .complete-image-wrapper:hover img {
+    transform: scale(1.1); /* Zoom in the image */
+  }
+  
+  /* Optional: Add shadow or border on hover for more visual effect */
+  .complete-image-wrapper:hover {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+  }
+  

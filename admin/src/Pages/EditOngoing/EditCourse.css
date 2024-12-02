@@ -1,0 +1,36 @@
+.edit1 {
+    width: 70%;
+    margin-left: max(5vw, 25px);
+    margin-top: 50px;
+    color: #6d6d6d;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.edit1 form {
+    gap: 20px;
+}
+
+.edit1-img-upload img {
+    width: 120px;
+}
+
+.edit1-product-name,
+.edit1-product-description {
+    width: max(40%, 280px);
+}
+
+.edit1-product-name input,
+.edit1-product-description textarea {
+    padding: 10px;
+}
+.update-btn1 {
+    max-width: 120px;
+    border: none;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}

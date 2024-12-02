@@ -1,0 +1,28 @@
+.log-in{
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    justify-content: center;
+    align-items: center;
+       
+       
+}
+.log-in h1{
+    color: #007bff;
+   
+}
+.log-in input{
+    width:300px;
+    padding: 7px;
+    border: 2px solid #007bff;
+}
+.log-in button{
+    width:100px;
+    background-color: #007bff;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    height: 35px;
+    color:white;
+}
