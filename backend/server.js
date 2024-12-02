@@ -8,8 +8,7 @@ import carouselRouter from "./routes/carouselRoute.js";
 import contactRouter from "./routes/contactRoute.js";
 import serviceRouter from "./routes/serviceRoute.js";
 import projectRouter from "./routes/projectRoute.js";
-import testimonialRouter from "./routes/testimonialRoute.js";
-import discoverRouter from "./routes/discoverRoute.js";
+import testimonialRouter from "./routes/testimonialRoute.js"
 import completeRouter from "./routes/completeRoute.js";
 import ongoingRouter from "./routes/ongoingRoute.js";
 import galleryRouter from "./routes/galleryRoute.js";
@@ -35,7 +34,6 @@ const staticFolders = [
   { route: "/carouselImages", folder: "carouselImages" },
   { route: "/projectImages", folder: "projectImages" },
   { route: "/testimonialImages", folder: "testimonialImages" },
-  { route: "/discoverImages", folder: "discoverImages" },
   { route: "/completeImages", folder: "completeImages" },
   { route: "/ongoingImages", folder: "ongoingImages" },
   { route: "/galleryImages", folder: "galleryImages" },
@@ -52,7 +50,6 @@ staticFolders.forEach(({ route, folder }) => {
 app.use("/api/carousels/", carouselRouter);
 app.use("/api/projects/", projectRouter);
 app.use("/api/testimonials/", testimonialRouter);
-app.use("/api/discovers/", discoverRouter);
 app.use("/api/completes/", completeRouter);
 app.use("/api/ongoings/", ongoingRouter);
 app.use("/api/galleries/", galleryRouter);
