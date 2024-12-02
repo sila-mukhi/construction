@@ -114,7 +114,8 @@ import 'aos/dist/aos.css';
 const SingleProject = () => {
     const { id } = useParams(); // Get project ID from URL
     const [ongoing, setOngoing] = useState(null); // Initialize with null
-    const url = "http://localhost:4300";               
+    // const url = "http://localhost:4300"; 
+    const url="https://construction-backend-wp9o.onrender.com";              
 
     useEffect(() => {
         // Initialize AOS animations

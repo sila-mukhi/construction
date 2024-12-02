@@ -52,8 +52,8 @@ import OnGoingPage from './Pages/OnGoingPage/OnGoingPage';
 import CompletePage from './Pages/CompletePage/CompletePage';
 import Gallery from './Pages/Gallery/Gallery';
 import Contact from './Pages/Contact/Contact';
-import SuccessVerification from './Pages/SuccessVerification/SuccessVerification';
-import VerifyEmail from './Pages/VerifyEmail/VerifyEmail';
+// import SuccessVerification from './Pages/SuccessVerification/SuccessVerification';
+// import VerifyEmail from './Pages/VerifyEmail/VerifyEmail';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import AOS from 'aos';
@@ -151,8 +151,8 @@ function App() {
         <Route path="/complete-page" element={<CompletePage />} />
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path="/success-verification" element={<SuccessVerification />} />
-        <Route path="/verify-email" element={<VerifyEmail />} />
+        {/* <Route path="/success-verification" element={<SuccessVerification />} /> */}
+        {/* <Route path="/verify-email" element={<VerifyEmail />} /> */}
         <Route path="/single-project/:id" element={<SingleProjectPage />} />
         <Route path="/single-project2/:id" element={<SingleProjectPage2 />} />
       </Routes>

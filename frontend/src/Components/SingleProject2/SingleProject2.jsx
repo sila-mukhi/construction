@@ -6,7 +6,8 @@ import { Link } from 'react-router-dom';
 const SingleProject2 = () => {
     const { id } = useParams(); // Get project ID from URL
     const [complete, setComplete] = useState(false); // Initialize with false
-    const url = "http://localhost:4300";
+    // const url = "http://localhost:4300";
+    const url="https://construction-backend-wp9o.onrender.com";
     useEffect(() => {
         const fetchCompleteDetails = async () => {
             try {

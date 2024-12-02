@@ -397,7 +397,8 @@ import axios from "axios";
 import Discover from "../../Components/Discover/Discover";
 
 const Contact = () => {
-  const API_URL = "http://localhost:4300";
+  const API_URL = "https://construction-backend-wp9o.onrender.com";
+  
   const [step, setStep] = useState(1); // Step 1: Contact Form, Step 2: OTP Verification, Step 3: Success
   const [formData, setFormData] = useState({
     firstname: "",

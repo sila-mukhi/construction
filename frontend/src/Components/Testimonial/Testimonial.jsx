@@ -80,7 +80,8 @@ import { Link } from 'react-router-dom'
 import axios  from 'axios'
 
 const Testimonial = () => {
-  const url = "http://localhost:4300";
+  // const url = "http://localhost:4300";
+  const url="https://construction-backend-wp9o.onrender.com";
   const [testimonial, setTestimonial] = useState([]);
   const fetchTestimonial = async () => {
      try {

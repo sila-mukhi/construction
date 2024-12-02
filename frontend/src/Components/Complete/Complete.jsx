@@ -3,7 +3,8 @@ import axios from 'axios';
 // Import the CSS file for hover effect
 import { Link } from 'react-router-dom';
 const Complete = () => {
-    const url = "http://localhost:4300";
+    // const url = "http://localhost:4300";
+    const url="https://construction-backend-wp9o.onrender.com";
     const [complete, setComplete] = useState([]);
 
     const fetchCompletes = async () => {

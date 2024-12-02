@@ -7,7 +7,7 @@ import Discover from '../../Components/Discover/Discover'
 import Facts from '../../Components/Facts/Facts'
 import Mission from '../../Components/Mission/Mission'
 import Testimonial from '../../Components/Testimonial/Testimonial'
-import OnGoing from '../../Components/OnGoing/OnGoing'
+// import OnGoing from '../../Components/OnGoing/OnGoing'
 
 const Home = () => {
   return (

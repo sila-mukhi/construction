@@ -3,7 +3,8 @@ import axios from 'axios';
 import './OnGoing.css'; // Import the CSS file for hover effect
 import {Link} from 'react-router-dom'
 const OnGoing = () => {
-    const url = "http://localhost:4300";
+    // const url = "http://localhost:4300";
+    const url="https://construction-backend-wp9o.onrender.com";
     const [ongoing, setOngoing] = useState([]);
 
     const fetchOngoings = async () => {
