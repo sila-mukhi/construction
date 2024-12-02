@@ -10,4 +10,3 @@ const completeSchema = new mongoose.Schema({
 const completeModel = mongoose.models.completes || mongoose.model("completes",completeSchema)
 
 export default completeModel 
-// export default carrousel model

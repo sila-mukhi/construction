@@ -70,33 +70,6 @@ const updateGallery = async (req, res) => {
     }
 };
 
-// const updateCarousel = async (req, res) => {
-//     let image_filename = req.file ? `${req.file.filename}` : null;
-
-//     const updateData = {
-    
-//         content: req.body.content,
-//         description: req.body.description,
-//         button1:req.body.button1,
-//         button2:req.body.button2,
-//     };
-
-//     if (image_filename) {
-//         updateData.image = image_filename;
-//     }
-
-//     try {
-//         const carousel = await carouselModel.findByIdAndUpdate(req.params.id, updateData, { new: true });
-//         if (!carousel) {
-//             return res.json({ success: false, message: "Carousel not found" });
-//         }
-//         res.json({ success: true, message: "Carousel updated", data: carousel });
-//     } catch (error) {
-//         console.log(error);
-//         res.json({ success: false, message: "Error updating carousel" });
-//     }
-// };
-
 const fetchGallery = async (req, res) => {
     try {
         const gallery = await galleryModel.findById(req.params.id);

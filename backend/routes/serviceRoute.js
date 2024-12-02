@@ -1,32 +1,3 @@
-// import express from "express";
-// import multer from "multer";
-// // import { fetchInstructor, listInstructor, removeInstructor, updateInstructor } from "../controllers/instructorController.js";
-// import {addService,  fetchService, listService, removeService, updateService } from "../controllers/serviceController.js";
-
-
-// const serviceRouter=express.Router();
-
-// //image storage engine
-
-// const storage = multer.diskStorage({
-//     destination:"serviceImages",
-//     filename:(req,file,cb)=>{
-//         return cb(null,`${Date.now()}${file.originalname}`)
-//     }
-// })
-
-// const serviceImage = multer({storage:storage})
-
-// serviceRouter.post("/addService",serviceImage.single("image"),addService)   // here imageb is field name
-// serviceRouter.get("/listService",listService)
-// // courseRouter.get("/listCourse",listCourse)
-// serviceRouter.post("/removeService",removeService)
-// serviceRouter.put("/updateService/:id", serviceImage.single("image"), updateService); // Added 'upload.single' for updating image
-// // instructorRouter.put("/updateInstructor/:id", instructorImage.single("image"), updateInstructor);
-// serviceRouter.get("/fetchService/:id",fetchService)
-
-// export default instructorRouter;
-
 import express from "express";
 import multer from "multer";
 import { addService, fetchService, listService, removeService, updateService } from "../controllers/serviceController.js";

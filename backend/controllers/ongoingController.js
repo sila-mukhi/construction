@@ -1,6 +1,3 @@
-// import completeModel from "../models/completeModel.js";
-// import projectModel from "../models/projectModel.js";
-// import carouselModel from "../models/projectModel.js";
 import fs from "fs/promises";
 import ongoingModel from "../models/ongoingModel.js";
 

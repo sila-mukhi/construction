@@ -1,12 +1,11 @@
 import express from "express";
 import multer from "multer";
 import fs from "fs";
-// import { addCarousel, fetchCarousel, listCarousel, removeCarousel, updateCarousel } from "../controllers/carouselController.js";
 import { addTestimonial, fetchTestimonial, listTestimonial, removeTestimonial, updateTestimonial } from "../controllers/testimonialController.js";
 
 const testimonialRouter = express.Router();
 
-// Ensure the carouselImages folder exists
+
 const testimonialImageFolder = "testimonialImages";
 if (!fs.existsSync(testimonialImageFolder)) {
     fs.mkdirSync(testimonialImageFolder);

@@ -9,4 +9,3 @@ const discoverSchema = new mongoose.Schema({
 const discoverModel = mongoose.models.discovers || mongoose.model("discovers",discoverSchema)
 
 export default discoverModel 
-// export default carrousel model

@@ -8,4 +8,3 @@ const projectSchema = new mongoose.Schema({
 const projectModel = mongoose.models.projects || mongoose.model("projects",projectSchema)
 
 export default projectModel 
-// export default carrousel model

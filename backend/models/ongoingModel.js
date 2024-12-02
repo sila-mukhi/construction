@@ -11,4 +11,3 @@ const ongoingSchema = new mongoose.Schema({
 const ongoingModel = mongoose.models.ongoings || mongoose.model("ongoings",ongoingSchema)
 
 export default ongoingModel 
-// export default carrousel model

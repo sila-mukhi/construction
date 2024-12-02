@@ -2,7 +2,7 @@ import express from "express";
 import multer from "multer";
 import fs from "fs";
 import { addProject, fetchProject, listProject, removeProject, updateProject } from "../controllers/projectController.js";
-// import { addCarousel, fetchCarousel, listCarousel, removeCarousel, updateCarousel } from "../controllers/carouselController.js";
+
 
 const projectRouter = express.Router();
 

@@ -11,4 +11,3 @@ const carouselSchema = new mongoose.Schema({
 const carouselModel = mongoose.models.carousels || mongoose.model("carousels",carouselSchema)
 
 export default carouselModel 
-// export default carrousel model

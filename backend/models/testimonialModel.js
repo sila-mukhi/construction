@@ -9,4 +9,3 @@ const testimonialSchema = new mongoose.Schema({
 const testimonialModel = mongoose.models.testimonials || mongoose.model("testimonials",testimonialSchema)
 
 export default testimonialModel 
-// export default carrousel model

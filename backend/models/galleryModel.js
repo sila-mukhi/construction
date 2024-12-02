@@ -7,4 +7,3 @@ const gallerySchema = new mongoose.Schema({
 const galleryModel = mongoose.models.galleries || mongoose.model("galleries",gallerySchema)
 
 export default galleryModel 
-// export default carrousel model

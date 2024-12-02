@@ -22,15 +22,3 @@ userRouter.put("/changePassword", authMiddleware, changePassword); // Updated to
 export default userRouter;
 
 
-
-// import express from "express";
-// import { register } from "../controllers/userController.js";
-
-// const userRouter = express.Router();
-
-// // User Registration Route
-// userRouter.post("/register", register);
-// userRouter.post("/verifyemail",register);
-
-
-// export default userRouter;
